@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:spsdkpay-demo-Swift/spsdkpay-demo-Swift.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:spsdkpay-demo-ObjC/spsdkpay-demo-ObjC.xcodeproj">
+   </FileRef>
+</Workspace>
