@@ -30,7 +30,7 @@ iOS SDK 要求 iOS 7.0 及以上版本
 1. 在 `Podfile` 添加
 
     ```
-    pod 'SPSDKPay', '~> 1.1.0'
+    pod 'SPSDKPay', '~> 1.1.2'
     ```
 
     默认会包含支付宝、微信。你也可以自己选择渠道。  
@@ -45,13 +45,13 @@ iOS SDK 要求 iOS 7.0 及以上版本
     例如：
 
     ```
-    pod 'SPSDKPay/Alipay', '~> 1.1.0'
-    pod 'SPSDKPay/UnionPay', '~> 1.1.0'
+    pod 'SPSDKPay/Alipay', '~> 1.1.2'
+    pod 'SPSDKPay/UnionPay', '~> 1.1.2'
    
     ```
     Super++ SDK UI 版
     ```
-    pod 'SPSDKPay/UI', '~> 1.1.0'
+    pod 'SPSDKPay/UI', '~> 1.1.2'
     ```
 
 2. 运行 `pod install`
