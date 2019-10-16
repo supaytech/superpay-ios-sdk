@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SPSDKPay'
-  s.version      = '1.1.2'
+  s.version      = '1.1.3'
   s.summary      = 'Supay iOS SDK'
   s.description  = <<-DESC
                    移动应用支付接口。
