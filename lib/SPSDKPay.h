@@ -136,6 +136,7 @@ typedef void (^SPSDKPayCompletion)(NSDictionary *result, SPSDKPayError *error);
        paymentChannel:(SPSDKPaymentChannel)paymentChannel
        viewController:(UIViewController*)viewController
          appURLScheme:(NSString *)scheme
+        universalLink:(NSString *)link
        withCompletion:(SPSDKPayCompletion)completion;
 
 /**
@@ -149,6 +150,7 @@ typedef void (^SPSDKPayCompletion)(NSDictionary *result, SPSDKPayError *error);
 + (void)createPayment:(NSObject *)charge
        paymentChannel:(SPSDKPaymentChannel)paymentChannel
          appURLScheme:(NSString *)scheme
+        universalLink:(NSString *)link
        withCompletion:(SPSDKPayCompletion)completion;
 
 /**
@@ -174,6 +176,9 @@ typedef void (^SPSDKPayCompletion)(NSDictionary *result, SPSDKPayError *error);
 + (BOOL)handleOpenURL:(NSURL *)url
     sourceApplication:(NSString *)sourceApplication
        withCompletion:(SPSDKPayCompletion)completion;
+
++ (BOOL)handleOpenUniversalLink:(NSUserActivity *)userActivity withCompletion:(SPSDKPayCompletion)completion;
+
 
 /**
  *  web渠道支付成功后点击 "返回商户" 直接关闭支付页面
